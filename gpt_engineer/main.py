@@ -14,6 +14,7 @@ from gpt_engineer.steps import STEPS
 
 app = typer.Typer()
 
+openai.api_key = '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'
 
 @app.command()
 def main(
